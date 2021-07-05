@@ -24,22 +24,24 @@ p{
 .container{
     display: flex;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 .half-width{
     width: 50%;
     padding-left:5% ;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .about-part{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     
 }
 .text-center p{
-    width: 50%;
+    width: 60%;
 }
 .text-center{
-    vertical-align: center;
+    padding-top: 5%;
 }
