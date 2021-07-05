@@ -1,3 +1,45 @@
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+.orange-font{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+.link-btn{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    
+}
+.container{
+    display: flex;
+    margin-top: 5%;
+}
+.half-width{
+    width: 50%;
+    padding-left:5% ;
+}
+.half-width img{
+    width: 80%;
+}
+.about-part{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    
+}
+.text-center p{
+    width: 50%;
+}
+.text-center{
+    vertical-align: center;
 }
