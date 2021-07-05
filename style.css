@@ -11,6 +11,9 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 30px;
+}
 p{
     color: dimgray;
     margin-bottom: 10%;
@@ -21,8 +24,7 @@ p{
     text-decoration: none;
     color: white;
     padding: 15px 30px;
-    border-radius: 30px;
-    
+    border-radius: 30px; 
 }
 .container{
     display: flex;
@@ -55,10 +57,12 @@ p{
 }
 .recipie-card{
     box-shadow: 5px 5px 5px 5px gray;
-    height:400px;
-    width: 800px;
+    height:100%;
+    width: 30%;
+    margin-top: -8%;
     border-radius: 15px;
     padding: 10px;
+    
 }
 .recipie-card img{
     width: 100%;
@@ -72,4 +76,25 @@ p{
 .third{
     margin-left: 5%;
     margin-right: 5%;
+}
+.follower{
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+.follower div{
+    padding-left: 12%;
+}
+.last-part{
+    background-color: black;
+    height: 200px;
+    padding-top: 8px;
+}
+#network-clr{
+    color: dimgray;
+}
+#eat-clr{
+    color: white;
 }
