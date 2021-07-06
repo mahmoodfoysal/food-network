@@ -19,12 +19,14 @@ h3{
 }
 #para-clr{
     color: dimgray;
-    margin-bottom: 7%;
+    margin-bottom: 10%;
     text-align: justify;
+    line-height: 1.75;
 }
 p{
-    margin-bottom: 7%;
+    margin-bottom: 10%;
     text-align: justify;
+    line-height: 1.75;
 }
 .link-btn{
     background-image: linear-gradient(orange, tomato);
@@ -58,6 +60,8 @@ p{
 }
 .recipies{
     text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .recipies p{
     text-align: center;
@@ -65,9 +69,9 @@ p{
 .recipie-card{
     box-shadow: 5px 5px 5px 5px lightgrey;
     width: 30%;
-    margin-top: -5%;
+    margin-top: 0%;
     border-radius: 18px;
-    padding: 10px;   
+    padding: 15px;   
 }
 .recipie-card img{
     width: 100%;
@@ -98,11 +102,29 @@ p{
 .last-part{
     background-color: black;
     height: 250px;
+    width: 100%;
     padding-top: 8px;
 }
 #eat-clr{
     color: white;
+    text-align: center;
 }
 #network-clr{
     color: dimgray;
+}
+.ntk{
+    text-align: center;
+}
+.new-rcp-title{
+    text-align: center;
+}
+.new-rep-img{
+    border-radius: 50%;
+    height: 325px;
+    width: 200px;
+    
+}
+.new-recp-color{
+    color: #4B9C8E;
+    
 }
