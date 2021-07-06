@@ -63,48 +63,46 @@ p{
     text-align: center;
 }
 .recipie-card{
-    box-shadow: 5px 5px 5px 5px gray;
-    height:100%;
+    box-shadow: 5px 5px 5px 5px lightgrey;
     width: 30%;
     margin-top: -5%;
     border-radius: 18px;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 .recipie-card img{
     width: 100%;
 }
-.first{
+.first-box{
     margin-left: 5%;
 }
-.second{
+.second-box{
     margin-left: 5%;
 }
-.third{
+.third-box{
     margin-left: 5%;
     margin-right: 5%;
 }
 .follower{
-    box-shadow: 2px 2px 2px 2px gray;
-    width: 80%;
-    margin-left: 10%;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    width: 90%;
+    margin-left: 5%;
     border-radius: 15px;
     margin-bottom: 5%;
 }
-.follower div{
-    padding-left: 12%;
+.follower div{ 
+    margin: 0 auto;
+}
+.popularity{
+    padding-bottom: 20px;
 }
 .last-part{
     background-color: black;
-    height: 200px;
+    height: 250px;
     padding-top: 8px;
-}
-#network-clr{
-    color: dimgray;
 }
 #eat-clr{
     color: white;
 }
-#clr{
-    color: black;
+#network-clr{
+    color: dimgray;
 }
